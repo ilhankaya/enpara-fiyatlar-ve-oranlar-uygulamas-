@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cell_background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/type_height"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/currency_type"
+            android:gravity="right|center_vertical"
+            android:paddingRight="20dp"/>
+
+        <Spinner
+            android:id="@+id/dialog_edit_spinnerCurrencyType"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:entries="@array/currency_types">
+        </Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/separator_line">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/type_height"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/alert_type_capital"
+            android:gravity="right|center_vertical"
+            android:paddingRight="20dp"/>
+
+        <Spinner
+            android:id="@+id/dialog_edit_spinnerAlertType"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:entries="@array/alert_types">
+        </Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/separator_line">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/type_height"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/value_capital"
+            android:gravity="right|center_vertical"
+            android:paddingRight="20dp"/>
+
+        <EditText
+            android:id="@+id/dialog_edit_txtValue"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:inputType="numberDecimal"
+            android:imeOptions="actionDone"
+            android:selectAllOnFocus="true"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/separator_line">
+    </LinearLayout>
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/type_height"
+        android:layout_margin="10dp"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/dialog_edit_alert_btnCancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/btn_cancel"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_cancel_background"/>
+
+        <Button
+            android:id="@+id/dialog_edit_alert_btnSave"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/btn_save"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_save_background"/>
+
+        <Button
+            android:id="@+id/dialog_edit_alert_btnDelete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/btn_delete"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_delete_background" />
+
+    </LinearLayout>
+-->
+
+</LinearLayout>

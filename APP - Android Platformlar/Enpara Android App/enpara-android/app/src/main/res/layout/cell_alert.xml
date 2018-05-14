@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cell_height"
+    android:padding="@dimen/field_padding"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/cell_alert_txtCurrency"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:text="@string/usd"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/default_font"
+        android:padding="@dimen/field_padding"
+        android:layout_marginRight="@dimen/field_padding"
+        android:background="@drawable/cell_background"/>
+
+    <TextView
+        android:id="@+id/cell_alert_txtAlertType"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:text="@string/usd"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/default_font"
+        android:padding="@dimen/field_padding"
+        android:layout_marginRight="@dimen/field_padding"
+        android:background="@drawable/cell_background"/>
+
+    <TextView
+        android:id="@+id/cell_alert_txtValue"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:text="@string/usd"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/default_font"
+        android:padding="@dimen/field_padding"
+        android:layout_marginRight="@dimen/field_padding"
+        android:background="@drawable/cell_background"/>
+
+    <TextView
+        android:id="@+id/cell_alert_txtTime"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:text="@string/usd"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/default_font"
+        android:padding="@dimen/field_padding"
+        android:layout_marginRight="@dimen/field_padding"
+        android:background="@drawable/cell_background"/>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "163927835703",
+    "firebase_url": "https://enpara-mobile.firebaseio.com",
+    "project_id": "enpara-mobile",
+    "storage_bucket": "enpara-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163927835703:android:d7403118d47cbd62",
+        "android_client_info": {
+          "package_name": "com.enpara.EnparaApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163927835703-5nq2o1bpu9vinu6dh971fhu84gcq8e02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5whUciRj9Wlh9RfAIZQbbpPAhI9P9n3Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

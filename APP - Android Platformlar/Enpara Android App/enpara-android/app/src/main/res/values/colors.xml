@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f8f8f8</color>
+    <color name="colorPrimaryDark">#DDDDDD</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="fieldHeaderBackground">#a94da0</color>
+    <color name="separator_line">#08000000</color>
+</resources>

@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>EnPara Fiyatlar ve Oranlar</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list no-lines>
+    <ion-buttons end>
+        <button ion-button icon-only color="dark" (click)="addCurrency()">
+          <!--<ion-icon name="add"></ion-icon>-->
+        </button>
+    </ion-buttons>
+    <ion-list-header no-padding>
+      <ion-grid>
+        <ion-row>
+          <ion-col col-4 text-center>CURRENCY TYPE</ion-col>
+          <ion-col col-4 text-center>BUY</ion-col>
+          <ion-col col-4 text-center>SELL</ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-list-header>
+        <ion-item *ngFor="let item of currencyList | async">
+          <ion-row>
+            <ion-col class="currency_type">{{item.currency_type}}</ion-col>
+            <ion-col text-center>{{item.buy_value}}</ion-col>
+            <ion-col text-center>{{item.sell_value}}</ion-col>
+          </ion-row>
+        </ion-item>
+ 
+    </ion-list>
+</ion-content>

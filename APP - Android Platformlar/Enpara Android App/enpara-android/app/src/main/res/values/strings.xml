@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">EnPara Fiyatlar ve Oranlar</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="currency">CURRENCY</string>
+    <string name="alert_type">ALERT TYPE</string>
+    <string name="value">VALUE</string>
+    <string name="time">TIME</string>
+    <string name="buy">BUY</string>
+    <string name="sell">SELL</string>
+    <string name="usd">USD</string>
+    <string name="eur">EUR</string>
+    <string name="gold">GOLD</string>
+    <string name="home">Home</string>
+    <string name="alert">Alert</string>
+    <string name="currency_type">Currency Type</string>
+    <string name="alert_type_capital">Alert Type</string>
+    <string name="value_capital">Value</string>
+
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_add">Add</string>
+
+    <string-array name="currency_types">
+        <item>@string/usd</item>
+        <item>@string/eur</item>
+        <item>@string/gold</item>
+    </string-array>
+
+    <string-array name="alert_types">
+        <item>@string/buy</item>
+        <item>@string/sell</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,39 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{title}}</ion-title>
+    <ion-buttons end>
+        <button ion-button icon-only color="dark" (click)="close()"><ion-icon name="close"></ion-icon></button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  
+  <ion-list no-lines>
+    <ion-item>
+      <ion-label>Currency Type</ion-label>
+      <ion-select [(ngModel)]="currency">
+        <ion-option *ngFor="let item of currencyTypes, let i = index" [value]="item" (ionSelect)="currency = item; selectChanged($event)">{{item}}</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Alert Type</ion-label>
+      <ion-select [(ngModel)]="alertType">
+        <ion-option *ngFor="let item of alertTypes, let i = index" [value]="item" (ionSelect)="alertType = item; selectChanged($event)">{{item}}</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Value</ion-label>
+      <ion-input type="number" [(ngModel)]="value" text-right></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <button class="btn-save" ion-button color="secondary" (click)="saveAlert()">Save</button>
+
+</ion-content>

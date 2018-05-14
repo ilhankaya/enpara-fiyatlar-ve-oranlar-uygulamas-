@@ -1,0 +1,25 @@
+page-update-modal {
+    ion-list {
+        margin-top: 34px !important;
+
+        .item-inner {
+            padding: 4px !important;
+            margin-right: 16px !important;
+            border: 0.55px solid #c8c7cc !important;
+        }
+
+        ion-item:first-child .item-inner {
+            border-bottom: none !important;
+        }
+
+        ion-item:last-child .item-inner {
+            border-top: none !important;
+        }
+    }
+
+    button.btn-save {
+        width: 120px;
+        left: 50%;
+        margin-left: -60px !important;
+    }
+}
